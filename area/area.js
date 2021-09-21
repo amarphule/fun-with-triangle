@@ -15,7 +15,7 @@ function calculateAreaOfTriangle() {
     if (side1 && side2 && side3) {
         const semiPeri = ((side1 + side2 + side3) / 2)
         const answer = areaOfTriangle(side1, side2, side3, semiPeri)
-        result.innerText = answer
+        result.innerText = `Area of triangle is ${answer}`
     } else {
         result.innerText = "Please insert number"
     }

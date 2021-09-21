@@ -11,7 +11,7 @@ submit.addEventListener("click", () => {
     let side2 = Number(sides[1].value)
     if (side1 && side2) {
         const hypotenuse = calculateHypo(side1, side2)
-        result.innerText = Math.sqrt(hypotenuse)
+        result.innerText = `Hypotenuse is ${Math.sqrt(hypotenuse)}`
     } else {
         result.innerText = "Please insert number"
     }
