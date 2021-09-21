@@ -1,68 +1,237 @@
 :root {
-    --primary-color: rgb(214, 197, 194);
-    --secondary-color: rgb(116, 35, 20);
-    --bg-color: rgb(247, 243, 242);
-  }
-  
-  body {
-    width: 100%;
-    margin: 0px;
-    background-color: var(--bg-color);
-  }
-  
-  /* Links */
-  .link {
-    font-size: larger;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-  }
-  
-  /* Lists */
-  .list-non-bullet {
-    list-style: none;
-  }
-  .list-inline {
-    display: inline;
-    padding: 0rem 0.5rem;
-  }
-  
-  .navigation {
-    background-color: var(--primary-color);
-    padding: 1rem;
-    border-bottom-left-radius: 1rem;
-  }
-  
-  .navigation .nav-brand {
-    font-size: 2rem;
-    font-weight: bold;
-  }
-  .navigation .nav-pills {
-    text-align: right;
-  }
-  
-  .navigation .link-active {
-    font-weight: bold;
-  }
-  
-  /* Question container*/
-  .container {
-    width: 80%;
-    margin: auto;
-  }
-  .container-quiz {
-    margin: 3rem 0rem;
-  }
-  #submit {
-    margin: auto;
-    text-align: center;
-    background-color: var(--secondary-color);
-    border-radius: 1rem;
-    padding: 1rem;
-    font-size: 20px;
-    color: white;
-  }
-  #result {
-    font-weight: 500;
-    color: var(--secondary-color);
-  }
-  
+  --primary-color: rgb(214, 197, 194);
+  --secondary-color: rgb(116, 35, 20);
+  --bg-color: rgb(247, 243, 242);
+}
+
+body {
+  width: 100%;
+  margin: 0px;
+  background-color: var(--bg-color);
+}
+
+/* Links */
+.link {
+  font-size: larger;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+.link-active {
+  font-weight: bold;
+}
+
+/* Lists */
+.list-non-bullet {
+  list-style: none;
+}
+.list-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.navigation {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.navigation .nav-pills {
+  text-align: right;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+/* Question container*/
+.container {
+  width: 80%;
+  margin: auto;
+}
+.container-quiz {
+  margin: 3rem 0rem;
+}
+
+input {
+  width: 10%;
+  margin: 2rem;
+  padding: 0.5rem;
+  font-size: 20px;
+  border-radius: 1rem;
+  border-color: var(--secondary-color);
+}
+#submit {
+  margin: auto;
+  text-align: center;
+  background-color: var(--secondary-color);
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: 20px;
+  color: white;
+}
+#result {
+  font-size: 2rem;
+  color: var(--secondary-color);
+}
+:root {
+  --primary-color: rgb(214, 197, 194);
+  --secondary-color: rgb(116, 35, 20);
+  --bg-color: rgb(247, 243, 242);
+}
+
+body {
+  width: 100%;
+  margin: 0px;
+  background-color: var(--bg-color);
+}
+
+/* Links */
+.link {
+  font-size: larger;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+.link-active {
+  font-weight: bold;
+}
+
+/* Lists */
+.list-non-bullet {
+  list-style: none;
+}
+.list-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.navigation {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.navigation .nav-pills {
+  text-align: right;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+/* Question container*/
+.container {
+  width: 80%;
+  margin: auto;
+}
+.container-quiz {
+  margin: 3rem 0rem;
+}
+
+input {
+  width: 10%;
+  margin: 2rem;
+  padding: 0.5rem;
+  font-size: 20px;
+  border-radius: 1rem;
+  border-color: var(--secondary-color);
+}
+#submit {
+  margin: auto;
+  text-align: center;
+  background-color: var(--secondary-color);
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: 20px;
+  color: white;
+}
+#result {
+  font-size: 2rem;
+  color: var(--secondary-color);
+}
+:root {
+  --primary-color: rgb(214, 197, 194);
+  --secondary-color: rgb(116, 35, 20);
+  --bg-color: rgb(247, 243, 242);
+}
+
+body {
+  width: 100%;
+  margin: 0px;
+  background-color: var(--bg-color);
+}
+
+/* Links */
+.link {
+  font-size: larger;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+.link-active {
+  font-weight: bold;
+}
+
+/* Lists */
+.list-non-bullet {
+  list-style: none;
+}
+.list-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.navigation {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.navigation .nav-pills {
+  text-align: right;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+/* Question container*/
+.container {
+  width: 80%;
+  margin: auto;
+}
+.container-quiz {
+  margin: 3rem 0rem;
+}
+
+input {
+  width: 10%;
+  margin: 2rem;
+  padding: 0.5rem;
+  font-size: 20px;
+  border-radius: 1rem;
+  border-color: var(--secondary-color);
+}
+#submit {
+  margin: auto;
+  text-align: center;
+  background-color: var(--secondary-color);
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: 20px;
+  color: white;
+}
+#result {
+  font-size: 2rem;
+  color: var(--secondary-color);
+}

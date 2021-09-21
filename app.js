@@ -1,4 +1,4 @@
-const angleInputs = document.querySelectorAll("#angle-input")
+const angleInputs = document.querySelectorAll(".angle-input")
 const isTriangle = document.querySelector("#submit")
 
 const result = document.querySelector("#result")
