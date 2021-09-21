@@ -63,6 +63,7 @@ input {
   font-size: 20px;
   border-radius: 1rem;
   border-color: var(--secondary-color);
+  outline: var(--primary-color);
 }
 #submit {
   margin: auto;
@@ -72,8 +73,25 @@ input {
   padding: 1rem;
   font-size: 20px;
   color: white;
+  outline: var(--primary-color);
 }
 #result {
   font-size: 2rem;
   color: var(--secondary-color);
+}
+
+.footer {
+  margin-top: 110px;
+  background-color: var(--primary-color);
+  text-align: center;
+  border-top-right-radius: 0.5rem;
+  padding: 2rem 1rem;
+}
+.footer-header {
+  font-size: large;
+  font-weight: bold;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
 }

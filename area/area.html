@@ -27,11 +27,55 @@
         </li>
       </ul>
     </nav>
-    <div class="container"></div>
     <div class="container">
-      <button id="submit">Submit answer</button>
+      <h1>Calculate Area of a triangle</h1>
+      <label
+        >Enter first side of a triangle =<input
+          type="number"
+          class="side-input"
+        />
+      </label>
+      <label
+        >Enter second side of a triangle =
+        <input type="number" class="side-input"
+      /></label>
+      <label
+        >Enter third side of a triangle =<input
+          type="number"
+          class="side-input"
+      /></label>
+      <button id="submit">Area of triangle</button>
+    </div>
+    <div class="container">
       <p id="result"></p>
     </div>
+    <div class="container">
+      <p>
+        Consider the triangle ABC with side lengths a, b, and c. To find the
+        area of the triangle we use Heron's formula:
+      </p>
+      <p><code>Area = √ s ( s − a ) ( s − b ) ( s − c )</code></p>
+      <p>
+        Note that (a + b + c) is the perimeter of the triangle. Therefore, 's'
+        is the semi-perimeter which is: (a + b + c)/2
+      </p>
+    </div>
+    <footer class="footer">
+      <div class="footer-header">Social media presence</div>
+      <ul class="list-non-bullet">
+        <li class="list-inline">
+          <a class="link" href="https://github.com/amarphule">Github</a>
+        </li>
+        <li class="list-inline">
+          <a class="link" href="https://twitter.com/AmardeepPhule">Tweeter</a>
+        </li>
+        <li class="list-inline">
+          <a class="link" href="https://www.linkedin.com/in/amardeep-phule/"
+            >LinkedIn</a
+          >
+        </li>
+      </ul>
+    </footer>
     <script src="area.js"></script>
   </body>
 </html>

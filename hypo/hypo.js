@@ -7,7 +7,12 @@ function calculateHypo(sideOne, sideTwo) {
 }
 
 submit.addEventListener("click", () => {
-
-    const hypotenuse = calculateHypo(Number(sides[0].value), Number(sides[1].value))
-    result.innerText = Math.sqrt(hypotenuse)
+    let side1 = Number(sides[0].value)
+    let side2 = Number(sides[1].value)
+    if (side1 && side2) {
+        const hypotenuse = calculateHypo(side1, side2)
+        result.innerText = Math.sqrt(hypotenuse)
+    } else {
+        result.innerText = "Please insert number"
+    }
 })
