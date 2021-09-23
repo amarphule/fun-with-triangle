@@ -28,11 +28,26 @@
     <div class="container">
       <h1>Angles of triangles</h1>
       <label for="angle1">Angle 1</label>
-      <input type="number" class="angle-input" />
+      <input
+        type="number"
+        class="angle-input"
+        min="0"
+        oninput="validity.valid||(value='');"
+      />
       <label for="angle2">Angle 2</label>
-      <input type="number" class="angle-input" />
+      <input
+        type="number"
+        class="angle-input"
+        min="0"
+        oninput="validity.valid||(value='');"
+      />
       <label for="angle3">Angle 3</label>
-      <input type="number" class="angle-input" />
+      <input
+        type="number"
+        class="angle-input"
+        min="0"
+        oninput="validity.valid||(value='');"
+      />
       <button id="submit">Is triangle?</button>
       <p id="result"></p>
     </div>

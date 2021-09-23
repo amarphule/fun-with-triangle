@@ -6,6 +6,10 @@ const result = document.querySelector("#result")
 function sumOfAngle(one, two, three) {
     return one + two + three
 }
+
+function message(msg) {
+    result.innerText = msg
+}
 isTriangle.addEventListener("click", () => {
     let angle1 = Number(angleInputs[0].value)
     let angle2 = Number(angleInputs[1].value)
@@ -13,13 +17,12 @@ isTriangle.addEventListener("click", () => {
     if (angle1 && angle2 && angle3) {
         let sum = sumOfAngle(angle1, angle2, angle3)
         if (sum === 180) {
-            result.innerText = "Heyy! Angle's form a triangle"
+            message("Heyy! Angle's form a triangle")
         } else {
-
-            result.innerText = "Angle's don't form a triangle"
+            message("Angle's don't form a triangle.")
         }
-    } else {
-        result.innerText = "Does not take empty value, insert Number."
 
+    } else {
+        message("Does not take empty value, insert angle of triangle.")
     }
 })

@@ -33,16 +33,24 @@
         >Enter first side of a triangle =<input
           type="number"
           class="side-input"
+          min="0"
+          oninput="validity.valid||(value='');"
         />
       </label>
       <label
         >Enter second side of a triangle =
-        <input type="number" class="side-input"
+        <input
+          type="number"
+          class="side-input"
+          min="0"
+          oninput="validity.valid||(value='');"
       /></label>
       <label
         >Enter third side of a triangle =<input
           type="number"
           class="side-input"
+          min="0"
+          oninput="validity.valid||(value='');"
       /></label>
       <button id="submit">Area of triangle</button>
     </div>

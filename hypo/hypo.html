@@ -28,9 +28,19 @@
     <div class="container">
       <h1>Calculate Hypotenuse of a triangle</h1>
       <label>Enter base value (a) =</label>
-      <input type="number" class="side-input" />
+      <input
+        type="number"
+        class="side-input"
+        min="0"
+        oninput="validity.valid||(value='');"
+      />
       <label>Enter height value (b) =</label>
-      <input type="number" class="side-input" />
+      <input
+        type="number"
+        class="side-input"
+        min="0"
+        oninput="validity.valid||(value='');"
+      />
       <button id="submit">Calculate Hypotenuse</button>
       <h2>Hypotenuse formula √(base² + height²)</h2>
     </div>

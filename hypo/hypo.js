@@ -13,6 +13,6 @@ submit.addEventListener("click", () => {
         const hypotenuse = calculateHypo(side1, side2)
         result.innerText = `Hypotenuse is ${Math.sqrt(hypotenuse)}`
     } else {
-        result.innerText = "Please insert number"
+        result.innerText = "Please insert length."
     }
 })
